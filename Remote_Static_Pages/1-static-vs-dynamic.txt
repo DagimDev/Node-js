@@ -1,0 +1,11 @@
+STATIC VS DYNAMIC PAGES
+-----------------------
+Static Pages:
+- Pre-written HTML/CSS/JS files on a server.
+- Sent directly to browser on request.
+- Content changes only when files are manually updated.
+
+Dynamic Pages:
+- Generated on-the-fly by server-side code (e.g., Node.js, PHP).
+- Content changes based on user/time/location.
+- Example: Show French version for users in France.
