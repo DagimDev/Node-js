@@ -1,0 +1,11 @@
+STATIC VS DYNAMIC CONTENT
+-------------------------
+Static (Local):
+- Browser opens HTML files directly.
+- No server needed.
+
+Dynamic (Remote):
+- Needs a server (like Node.js) to:
+  - Handle user requests.
+  - Fetch data from databases.
+  - Generate custom pages.
