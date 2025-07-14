@@ -1,0 +1,10 @@
+BROWSER FUNDAMENTALS
+--------------------
+What it does:
+1. Loads HTML/CSS/JS files (local or from servers).
+2. Renders them visually.
+3. Uses address bar paths (e.g., /Projects/goota-qube.html) to find files.
+
+KEY POINTS:
+- Needs HTML tags to structure content.
+- Auto-loads linked resources (images, JS, CSS).
