@@ -11,3 +11,5 @@ TCP/IP NETWORK LAYERS
 4. DataLink Layer (FRAME):
    - Adds MAC addresses + error checks.
    - MAC = Device's unique hardware ID.
+5. Physical Layer:
+   - Hardware (cables, signals).
