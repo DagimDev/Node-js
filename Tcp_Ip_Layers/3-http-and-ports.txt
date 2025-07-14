@@ -1,0 +1,5 @@
+HTTP & WEB SERVERS
+------------------
+1. HTTP Protocol:
+   - Transfers text/files over TCP/IP.
+   - Uses port 80 by default.
