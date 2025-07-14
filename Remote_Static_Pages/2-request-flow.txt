@@ -1,0 +1,9 @@
+HOW REMOTE REQUESTS WORK
+------------------------
+1. User enters URL (e.g., ofijan.com) → Browser checks DNS.
+2. DNS translates domain to IP (e.g., 63.245.215.20).
+3. Browser sends HTTP request to server IP.
+4. Server responds:
+   - Static: Sends HTML/CSS/JS directly (200 OK).
+   - Dynamic: Processes code first, then sends HTML.
+5. Browser renders received files.
