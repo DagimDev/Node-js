@@ -1,0 +1,12 @@
+HOW WEBSITES WORK (STATIC PAGES)
+--------------------------------
+- A webpage = HTML-tagged text document displayed in a browser.
+- Purpose: Show content visually.
+
+TYPES OF APPLICATIONS:
+1. Web Page (e.g., Ofijan’s site)
+   - Just HTML/CSS/JS files.
+2. Web App (e.g., Facebook)
+   - Needs internet + server data.
+3. Desktop App (e.g., Photoshop)
+   - Installed locally, no browser needed.
