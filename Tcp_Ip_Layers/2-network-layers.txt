@@ -1,0 +1,5 @@
+TCP/IP NETWORK LAYERS
+---------------------
+1. Application Layer (DATA):
+   - User-facing apps (Browser, Outlook).
+   - Protocols: HTTP, FTP, SMTP.
