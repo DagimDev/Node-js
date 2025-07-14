@@ -1,0 +1,11 @@
+DNS & URL STRUCTURE
+-------------------
+Key Concepts:
+- IP Address: Server's numeric ID (e.g., 63.245.215.20).
+- Domain: Human-friendly IP alias (e.g., evangadi.com).
+- ICANN: Governs domain/IP standards.
+- DNS: Translates domains → IPs.
+
+URL Paths:
+- https://ofijan.com → Loads /public_html/index.html
+- https://ofijan.com/exams.html → Loads exams.html
