@@ -1,0 +1,13 @@
+TCP/IP FUNDAMENTALS
+-------------------
+1. TCP (Transmission Control Protocol):
+   - Ensures reliable data delivery over networks.
+   - Breaks data into packets, reassembles at destination.
+
+2. IP Addresses:
+   - Unique identifier for devices (e.g., 192.168.1.67).
+   - Router shares one IP for multiple devices.
+
+3. Port Numbers:
+   - Identifies specific apps/services (e.g., :80 for HTTP).
+   - Format: "IP:Port" → "192.168.1.67:80".
