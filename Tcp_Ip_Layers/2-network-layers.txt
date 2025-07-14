@@ -6,3 +6,5 @@ TCP/IP NETWORK LAYERS
 2. Transport Layer (SEGMENT):
    - TCP adds ports/sequence numbers.
    - Ensures error-free delivery.
+3. Network Layer (PACKET):
+   - Adds source/destination IPs.
