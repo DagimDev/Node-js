@@ -3,3 +3,13 @@ HTTP & WEB SERVERS
 1. HTTP Protocol:
    - Transfers text/files over TCP/IP.
    - Uses port 80 by default.
+2. Web Servers:
+   - Software (e.g., Apache, Nginx).
+   - Listens on port 80 for HTTP requests.
+   - Sends static files directly; processes dynamic content.
+
+KEY EXAMPLE:
+- User requests "ofijan.com":
+  1. DNS → IP (e.g., 63.245.215.20:80).
+  2. Browser sends HTTP request.
+  3. Server responds with HTML/CSS/JS.
