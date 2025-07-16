@@ -1,0 +1,22 @@
+DYNAMIC WEB PAGES - CORE IDEAS
+───────────────────────────────
+1. What Makes a Page Dynamic?
+   - Content generated WHEN requested (not pre-written)
+   - Changes based on:
+     • User input (forms, logins)
+     • Time/date
+     • Location/language
+
+2. Static vs Dynamic:
+   ┌───────────────────┬───────────────────┐
+   │      Static       │      Dynamic      │
+   ├───────────────────┼───────────────────┤
+   │ Pre-made HTML     │ HTML generated    │
+   │ Manual updates    │ Automatic content │
+   │ Fast loading      │ More processing   │
+   └───────────────────┴───────────────────┘
+
+3. Node.js Advantage:
+   - Uses JavaScript everywhere (frontend + backend)
+   - Built-in server capabilities
+   - Handles many users efficiently
