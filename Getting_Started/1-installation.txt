@@ -1,0 +1,14 @@
+NODE.JS INSTALLATION GUIDE
+──────────────────────────
+1. Check Existing Installation:
+   → Run in terminal: 
+     node --version
+   - If version appears → Already installed
+   - Otherwise → Download from https://nodejs.org/
+
+2. Verify Installation:
+   → Create test.js:
+     console.log("Hello Node!");
+   → Run: 
+     node test.js
+   - Should print "Hello Node!"
