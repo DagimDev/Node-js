@@ -1,0 +1,22 @@
+HOW NODE.JS HANDLES DYNAMIC PAGES
+─────────────────────────────────
+1. Basic Flow:
+   Browser Request → Node Server → Generate HTML → Send Response
+
+2. Example Code (server.js):
+   ┌───────────────────────────────────────────────────────┐
+   │ const http = require('http');                         │
+   │                                                       │
+   │ http.createServer((req, res) => {                     │
+   │   // Dynamic content generation                       │
+   │   const time = new Date().toLocaleTimeString();       │
+   │                                                       │
+   │   res.writeHead(200, {'Content-Type': 'text/html'});  │
+   │   res.end(`<h1>Current time: ${time}</h1>`);          │
+   │ }).listen(3000);                                      │
+   └───────────────────────────────────────────────────────┘
+
+3. Key Parts:
+   • http module - Creates the server
+   • createServer - Handles incoming requests
+   • res.end() - Sends dynamic HTML
