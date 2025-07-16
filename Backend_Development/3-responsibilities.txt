@@ -1,0 +1,15 @@
+BACKEND DEVELOPER RESPONSIBILITIES
+──────────────────────────────────
+1. Core Duties:
+   - Write server-side logic (Express.js, Koa)
+   - Database management:
+     • SQL: PostgreSQL, MySQL
+     • NoSQL: MongoDB, Firebase
+   - API development (REST, GraphQL)
+   - Security implementation (JWT, OAuth)
+
+2. Node-Specific Skills:
+   - Middleware creation
+   - Error handling
+   - Async/await patterns
+   - WebSocket integration
