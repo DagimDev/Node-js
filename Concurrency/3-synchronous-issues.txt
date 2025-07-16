@@ -1,0 +1,15 @@
+SYNCHRONOUS ARCHITECTURE
+─────────────────────────
+1. How It Works:
+   - One thread = One request
+   - Blocks during I/O (DB calls, etc.)
+   - Like a waiter waiting for each dish to cook
+
+2. Pros & Cons:
+   ✅ Easier to code
+   ❌ Wastes CPU cycles
+   ❌ Scales poorly (needs more hardware)
+   ❌ One failure can crash others
+
+3. Frameworks:
+   - ASP.NET, Ruby on Rails (default sync)
