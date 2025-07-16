@@ -1,0 +1,17 @@
+NODE.JS AS BACKEND FRAMEWORK
+─────────────────────────────
+1. Why Node.js?
+   - Single-threaded + event loop → High concurrency
+   - JavaScript everywhere (frontend + backend)
+   - Massive NPM ecosystem (Express, Mongoose, etc.)
+
+2. Typical Node Backend Flow:
+   [Client] → (HTTP Request) → [Node Server] 
+     → [Business Logic] → [Database] 
+     → [Node Server] → (HTTP Response) → [Client]
+
+3. Backend Developer Tasks:
+   - Create RESTful APIs
+   - Design database schemas
+   - Implement authentication
+   - Optimize performance
