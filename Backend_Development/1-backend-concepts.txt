@@ -1,0 +1,20 @@
+BACKEND DEVELOPMENT FUNDAMENTALS
+────────────────────────────────
+1. Definition:
+   - Server-side logic handling:
+     • Request processing
+     • Database operations
+     • API responses
+   - "Invisible engine" powering websites
+
+2. Key Components:
+   ┌──────────────────┬───────────────────────────────┐
+   │ Component        │ Purpose                       │
+   ├──────────────────┼───────────────────────────────┤
+   │ Server           │ Handles HTTP requests         │
+   │ Database         │ Stores/retrieves application  │
+   │                  │ data                          │
+   │ APIs             │ Communication bridge between  │
+   │                  │ frontend and backend          │
+   │ Business Logic   │ Core application rules        │
+   └──────────────────┴───────────────────────────────┘
