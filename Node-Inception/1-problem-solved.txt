@@ -1,0 +1,10 @@
+THE PROBLEM NODE.JS SOLVES
+───────────────────────────
+1. Core Issue:
+   - Synchronous architectures waste CPU cycles waiting
+   - Thread-per-request models don't scale well
+
+2. Node's Solution:
+   - Non-blocking I/O via event loop
+   - Single thread handles 1000s of concurrent connections
+   - Perfect for I/O-heavy apps (APIs, web servers)
