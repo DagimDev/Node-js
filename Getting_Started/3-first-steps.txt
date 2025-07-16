@@ -1,0 +1,17 @@
+MY FIRST NODE PROJECT
+───────────────────────
+1. Setup:
+   → mkdir my-project
+   → cd my-project
+   → npm init -y  # Auto-generate package.json
+
+2. Install Dependencies:
+   → npm install express
+   → Creates node_modules/ and package-lock.json
+
+3. Create Server:
+   // server.js
+   const express = require('express');
+   const app = express();
+   app.get('/', (req, res) => res.send('Hello World!'));
+   app.listen(3000);
