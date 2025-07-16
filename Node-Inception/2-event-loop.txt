@@ -1,0 +1,19 @@
+NODE'S EVENT LOOP MODEL
+───────────────────────
+1. How It Works:
+   ┌─────────────────────────────────────────────────────┐
+   │  Incoming Request → Event Queue → Callback Stack    │
+   │         ↑              ↓                            │
+   │         └── Thread Pool (for heavy tasks) ←────┘    │
+   └─────────────────────────────────────────────────────┘
+
+2. Key Features:
+   - Single main thread (no thread spawning)
+   - Offloads blocking ops to worker threads (libuv)
+   - Callbacks handle completed tasks
+
+3. Analogy:
+   Like a restaurant manager who:
+   - Takes orders (async)
+   - Delegates cooking (thread pool)
+   - Serves completed dishes (callbacks)
