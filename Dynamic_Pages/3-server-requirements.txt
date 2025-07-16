@@ -1,0 +1,15 @@
+SERVER REQUIREMENTS FOR DYNAMIC CONTENT
+───────────────────────────────────────
+1. Must Have:
+   - Web server software (Node.js itself!)
+   - Port listening (usually 3000/8080 in development)
+   - Response handling logic
+
+2. Node.js Special Features:
+   • Event Loop - Handles multiple requests efficiently
+   • NPM Packages - Add functionality (Express.js, etc.)
+   • No separate compiler needed (unlike PHP)
+
+3. Handling Many Users:
+   - Node is asynchronous (doesn't wait for one task to finish)
+   - Example: Can process 1000 requests while waiting for database
