@@ -1,0 +1,19 @@
+MODERN THREADING APPROACH
+──────────────────────────
+1. Threading Basics:
+   - Splits program into parallel tasks
+   - Virtual cores (2 threads/core)
+   - Example: Browse web + play music simultaneously
+
+2. Threads vs Processes:
+   ┌──────────────────┬──────────────────┐
+   │     Threads      │    Processes     │
+   ├──────────────────┼──────────────────┤
+   │ Share resources  │ Fully independent│
+   │ Faster creation  │ Heavy to spawn   │
+   │ 200+ concurrent │ Limited scaling  │
+   └──────────────────┴──────────────────┘
+
+3. Example: Java Tomcat
+   - Handles 200 threads concurrently
+   - Bottlenecks after ~200 requests
