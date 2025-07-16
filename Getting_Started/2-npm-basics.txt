@@ -1,0 +1,20 @@
+NPM ESSENTIALS
+───────────────
+1. What is NPM?
+   - Website: Browse packages (npmjs.com)
+   - Registry: 800,000+ packages database
+   - CLI: Manage packages via terminal
+
+2. Key Commands:
+   ┌──────────────────────┬───────────────────────────────┐
+   │ Command              │ Purpose                       │
+   ├──────────────────────┼───────────────────────────────┤
+   │ npm init             │ Create package.json          │
+   │ npm install express  │ Install package locally      │
+   │ npm install -g nodemon│ Install globally            │
+   │ npm update           │ Update all packages          │
+   └──────────────────────┴───────────────────────────────┘
+
+3. package.json:
+   - Project ID card (name, version, dependencies)
+   - Auto-generated via `npm init`
