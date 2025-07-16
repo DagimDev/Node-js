@@ -1,0 +1,17 @@
+WHY JAVASCRIPT WAS CHOSEN
+─────────────────────────
+1. Perfect Fit:
+   - Already async (browser event handling)
+   - Massive developer familiarity
+   - Lightweight syntax
+
+2. The Missing Piece:
+   - No server-side compiler → Solved by V8
+   - Ryan Dahl embedded V8 + C++ libs → Node.js
+
+3. Limitations:
+   - Single-threaded (bad for CPU-heavy tasks)
+   - Not ideal for:
+     • Image/video processing
+     • Complex calculations
+     • Machine learning
