@@ -1,0 +1,11 @@
+TRADITIONAL REQUEST HANDLING (CGI)
+───────────────────────────────────
+1. CGI (Common Gateway Interface):
+   - Middleware between web servers and apps
+   - Generates dynamic content for each request
+   - Supports multiple languages (C, Java, Perl)
+
+2. Problems with CGI:
+   - Creates NEW PROCESS per request
+   - Extremely resource-intensive
+   - Example: Spawns new PHP instance for every request
