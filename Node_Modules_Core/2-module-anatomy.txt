@@ -1,0 +1,22 @@
+NODE MODULE STRUCTURE
+─────────────────────
+1. Key Characteristics:
+   - Single file = Single module
+   - Automatic function wrapper:
+     (function(exports, require, module, __filename, __dirname) {
+       // Your code
+     });
+
+2. Global vs Module Scope:
+   // Not added to global object
+   var secret = "private";
+   
+   // Explicitly exported
+   module.exports = {
+     publicData: "accessible"
+   };
+
+3. Core Module Types:
+   - Local (your files)
+   - Core (fs, path, http)
+   - NPM (third-party)
