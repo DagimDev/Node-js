@@ -1,0 +1,16 @@
+Wrapping your code inside braces:
+▪ Example:
+     (eat = () => {
+        console.log("Kebede ate");
+     })
+     Example:
+        (eat = () => {
+        console.log("Hana ate");
+     });
+        eat();// This will print both “Kebede ate”
+        and “Hana ate”
+● 3. Using the IIFE (Immediately Invoked Function Expression) way:
+    This is basically wrapping variables/functions inside of another function
+    to limit the scope of these variables and functions to a local scope.
+● 4. Modularity: Here, you will set up local variables/functions using
+    modules where these variables/functions are treated local to the modules
