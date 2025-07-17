@@ -1,0 +1,21 @@
+HOW IIFE SOLVES COLLISIONS
+──────────────────────────
+1. Problem Scenario:
+   // script1.js
+   var count = 0;  // Global pollution
+
+   // script2.js
+   var count = 5;  // Overrides!
+
+2. IIFE Solution:
+   // script1.js
+   (function() {
+     var count = 0;  // Now scoped
+     console.log(count); // 0
+   })();
+
+   // script2.js  
+   (function() {
+     var count = 5;  // Separate scope
+     console.log(count); // 5
+   })();
