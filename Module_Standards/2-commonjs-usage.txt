@@ -1,0 +1,17 @@
+COMMONJS IN PRACTICE
+────────────────────
+1. Exporting:
+   // math.js
+   const add = (a, b) => a + b;
+   module.exports = { add };
+
+2. Importing:
+   // app.js
+   const math = require('./math');
+   math.add(2, 3); // 5
+
+3. Special Variables:
+   - __filename: Current file path
+   - __dirname: Current directory
+   - module: Current module info
+   - exports: Alias for module.exports
