@@ -1,0 +1,17 @@
+IIFE DRAWBACKS
+───────────────
+1. Main Challenges:
+   - Script Order Dependency:
+     <!-- Must load dependencies first -->
+     <script src="jquery.js"></script>
+     <script src="plugin.js"></script> <!-- Uses jQuery -->
+
+   - Debugging Complexity:
+     // Error shows as "anonymous function"
+     (function() {
+       throw new Error('Debug me!');
+     })();
+
+2. Modern Alternatives:
+   - ES6 Modules (import/export)
+   - Node.js CommonJS (require/module.exports)
