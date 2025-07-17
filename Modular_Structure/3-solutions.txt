@@ -1,0 +1,27 @@
+SOLVING NAMESPACE COLLISIONS
+─────────────────────────────
+1. Object Namespacing:
+   var App = {
+     utils: {
+       calculate: () => 1+1  
+     },
+     math: {
+       calculate: () => 2*2
+     }
+   };
+
+   App.utils.calculate(); // 2
+   App.math.calculate();  // 4
+
+2. Node.js Module System:
+   // math.js
+   module.exports = {
+     calculate: () => 2*2
+   };
+
+   // utils.js  
+   module.exports = {
+     calculate: () => 1+1
+   };
+
+   // No collision - separate modules
