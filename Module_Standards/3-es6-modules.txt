@@ -1,0 +1,18 @@
+ES6 MODULES
+───────────
+1. Modern Standard:
+   - Native browser support
+   - `import`/`export` syntax
+   - Static analysis benefits
+
+2. Usage:
+   // math.mjs
+   export const add = (a, b) => a + b;
+   
+   // app.mjs
+   import { add } from './math.mjs';
+   add(2, 3); // 5
+
+3. Enabling in Node:
+   - Add "type": "module" to package.json
+   - OR use .mjs file extension
