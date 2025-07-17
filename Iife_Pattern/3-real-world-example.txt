@@ -1,0 +1,17 @@
+PRACTICAL IIFE USAGE
+────────────────────
+1. Module Pattern:
+   var Calculator = (function() {
+     // Private variables
+     var precision = 2;
+
+     // Public API
+     return {
+       add: (a, b) => (a + b).toFixed(precision),
+       subtract: (a, b) => (a - b).toFixed(precision)
+     };
+   })();
+
+   // Usage:
+   Calculator.add(1.456, 2.789); // "4.25"
+   Calculator.precision; // undefined (private)
