@@ -1,0 +1,14 @@
+MAIN MODULE CONCEPT
+───────────────────
+1. Entry Point:
+   - Defined in package.json:
+     "main": "index.js"
+   - Defaults to index.js
+
+2. Special Globals:
+   - __filename: Absolute path of current file
+   - __dirname: Directory of current file
+
+3. Execution Flow:
+   node app.js → Loads app.js as main module
+   → Requires other modules as needed
