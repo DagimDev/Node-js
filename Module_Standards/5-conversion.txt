@@ -1,0 +1,19 @@
+CONVERTING BETWEEN STANDARDS
+────────────────────────────
+1. ES6 → CommonJS:
+   // Using Babel
+   npm install @babel/core @babel/preset-env
+
+2. CommonJS → ES6:
+   // wrapper.mjs
+   import cjsModule from './commonjs.js';
+   export const foo = cjsModule.foo; 
+
+3. Dual Compatibility:
+   // package.json
+   {
+     "exports": {
+       "require": "./commonjs.js",
+       "import": "./esm.mjs"
+     }
+   }
