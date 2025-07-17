@@ -1,0 +1,18 @@
+MODULAR DESIGN PRINCIPLES
+─────────────────────────
+1. What is Modular Design?
+   - Breaking systems into independent, reusable components
+   - Like building with LEGO blocks
+
+2. Key Benefits:
+   ┌──────────────────────┬───────────────────────────────┐
+   │ Benefit              │ Real-World Example           │
+   ├──────────────────────┼───────────────────────────────┤
+   │ Separation of Concerns │ Car engine vs transmission │
+   │ Reusability          │ Using same auth module      │
+   │                      │ across projects             │
+   │ Parallel Development │ Team A works on payments    │
+   │                      │ while Team B works on auth  │
+   │ Easier Maintenance  │ Update logger without       │
+   │                      │ touching database code      │
+   └──────────────────────┴───────────────────────────────┘
