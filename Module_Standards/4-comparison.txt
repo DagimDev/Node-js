@@ -1,0 +1,15 @@
+COMMONJS vs ES6
+────────────────
+1. Key Differences:
+   ┌──────────────────┬──────────────────────┬──────────────────┐
+   │ Feature          │ CommonJS             │ ES6 Modules      │
+   ├──────────────────┼──────────────────────┼──────────────────┤
+   │ Syntax           │ require/exports      │ import/export    │
+   │ Loading          │ Dynamic (runtime)    │ Static (parse)   │
+   │ Browser Support  │ Needs bundler        │ Native           │
+   │ Top-Level Await  │ No                   │ Yes              │
+   └──────────────────┴──────────────────────┴──────────────────┘
+
+2. When to Use:
+   - CommonJS: Legacy Node projects
+   - ES6: New projects, frontend code
