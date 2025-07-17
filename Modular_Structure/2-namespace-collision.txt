@@ -1,0 +1,26 @@
+NAMESPACE COLLISIONS IN JAVASCRIPT
+───────────────────────────────────
+Problem of global name-space collisions
+
+● Namespace: Namespace is basically the place/space where name of a
+    on is accessible.
+● Name collision: Name collisions is the accidental overriding of the value
+    of a variable/function because accidentally used the same
+    variable/function name in different places
+    
+1. The Problem:
+   // File 1
+   function calculate() { return 1+1; }
+
+   // File 2
+   function calculate() { return 2*2; } 
+   
+   calculate(); // ❌ Returns 4 (overrides first function)
+
+2. Root Cause:
+   - All scripts share the SAME global namespace (window object)
+   - Last declaration wins
+
+3. Demonstration:
+   var user = "Alice";
+   console.log(window.user); // "Alice" (pollutes global scope)
