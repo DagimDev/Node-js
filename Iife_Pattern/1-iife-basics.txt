@@ -1,0 +1,20 @@
+IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (IIFE)
+─────────────────────────────────────────────────
+1. What is IIFE?
+   - Function that runs immediately after creation
+   - Creates isolated scope instantly
+
+2. Syntax:
+   // Classic
+   (function() {
+     // Your code
+   })();
+
+   // Arrow function
+   (() => {
+     // Your code
+   })();
+
+3. Key Feature:
+   - Variables inside are SCOPE-LOCKED
+   - Doesn't pollute global namespace
