@@ -1,0 +1,15 @@
+COMMONJS MODULES
+─────────────────
+1. Historical Context:
+   - Created for Node.js (2009)
+   - Solved JavaScript's lack of modules
+   - Basis for NPM ecosystem
+
+2. Key Features:
+   - File-based modules
+   - `require()` for imports
+   - `module.exports` for exports
+   - Automatic function wrapping:
+     (function(exports, require, module, __filename, __dirname) {
+       // Code
+     });
