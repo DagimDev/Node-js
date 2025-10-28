@@ -7,3 +7,4 @@ const sum = (a, b) => {
 module.exports.sum = sum;
 // console.log(module);
 console.log("Abebe beso bela")
+console.log("Abebe beso bela")
