@@ -3,9 +3,16 @@
 //   return c;
 // };
 
+
 const ds = 5;
 const AsomeF = () => {
   console.log(ds);
 };
 
 module.exports.sAsomeF = AsomeF;
+
+
+
+
+// module.exports.sum = sum;
+
