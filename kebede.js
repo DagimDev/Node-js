@@ -1,6 +1,11 @@
-const sum = (a, b) => {
-  let c = a + b;
-  return c;
+// const sum = (a, b) => {
+//   let c = a + b;
+//   return c;
+// };
+
+const ds = 5;
+const AsomeF = () => {
+  console.log(ds);
 };
 
-module.exports.sum = sum;
+module.exports.sAsomeF = AsomeF;
